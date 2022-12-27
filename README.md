@@ -13,11 +13,15 @@ The application will run on the AWS server since the SQS data queue is hosted on
 
 ## Future scope
 1) How would you deploy this application in production?
+
 --> While deploying the application in production one should endure that the database is configured. Security is configured to avoid data breach issues. The application should be pushed to a package.
 
 2) What other components would you want to add to make this production ready?
+
 --> We can do automation testing on the application to ensure that the application is robust enough and does not break down more often. We can also add a user friendly website or dashboard where he/she can start and stop the entire ETL process or we can automate the entire process to run at regular intervals (daily/weekly,etc.) and the user can just invade in the process when there is an error in the process. 
 There should also be a CI framework where new code can be integrated easily without much changes and user can also keep a track of the commit changes done to the framework. 
+
 3) How can this application scale with a growing data set.
+
 --> By using load balancers we can balance out the data. This would help scale the data and also avoid overloading issues when the dataset grows in size. Also, in order to avoid server downtime issues, we can use web proxy servers.
 

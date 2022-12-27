@@ -25,3 +25,7 @@ There should also be a CI framework where new code can be integrated easily with
 
 --> By using load balancers we can balance out the data. This would help scale the data and also avoid overloading issues when the dataset grows in size. Also, in order to avoid server downtime issues, we can use web proxy servers.
 
+4) How can PII be recovered later on?
+
+--> We can recover back the masked data using inverse_tranform function present in sklearn library.
+
